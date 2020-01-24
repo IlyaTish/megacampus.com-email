@@ -45,7 +45,7 @@ gulp.task('watch', () => {
     port: 3000
   });
 
-  gulp.watch('./sass/**/**/*.sass', gulp.series('styles'));
+  gulp.watch('./sass/**/**/*.sass', gulp.series('styles', 'inky')).on('change', browserSync.reload);
   gulp.watch('./templates/**/*.html', gulp.series('inky')).on('change', browserSync.reload);
 });
 
