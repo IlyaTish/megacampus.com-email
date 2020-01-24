@@ -1,23 +1,62 @@
 <!-- Emails use the XHTML Strict doctype -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" style="background: #e5e5e5; min-height: 100%;">
 <head>
   <!-- The character set should be utf-8 -->
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <!-- Enables media queries -->
-  <meta name="viewport" content="width=device-width"/>
+  <meta name="viewport" content="width=device-width">
   <!-- Link to the email's CSS, which will be inlined into the email -->
-  <link rel="stylesheet" href="../css/styles.css" inline>
+  <style>
+@media only screen and (max-width:630px) {
+  .small-float-center {
+    margin: 0 auto !important;
+    float: none !important;
+  }
+  .small-float-center,.small-text-center {
+    text-align: center !important;
+  }
+  .small-text-left {
+    text-align: left !important;
+  }
+  .small-text-right {
+    text-align: right !important;
+  }
+}
+
+
+@media only screen and (max-width:630px) {
+  table.body table.container .hide-for-large {
+    display: block !important;
+    width: auto !important;
+    overflow: visible !important;
+  }
+}
+
+
+@media only screen and (max-width:630px) {
+  table.body table.container .row.hide-for-large {
+    display: table !important;
+    width: 100% !important;
+  }
+  table.body table.container .show-for-large {
+    display: none !important;
+    width: 0;
+    mso-hide: all;
+    overflow: hidden;
+  }
+}
+</style>
 </head>
-<body>
-    <table class="body">
-      <tr>
-        <td>
-          <container>
-            <row>
-              <columns class="header">
-                <spacer size="26"></spacer>
-                <svg width="146" height="32" viewBox="0 0 146 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<body style="-moz-box-sizing: border-box; -ms-text-size-adjust: 100%; -webkit-box-sizing: border-box; -webkit-text-size-adjust: 100%; Margin: 0; box-sizing: border-box; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; min-width: 100%; padding: 0; text-align: left; width: 100% !important;">
+    <table class="body" style="Margin: 0; background: #e5e5e5; border-collapse: collapse; border-spacing: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; height: 100%; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;">
+      <tr style="padding: 0; text-align: left; vertical-align: top;">
+        <td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+          <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+              <th class="header small-12 large-12 columns first last" style="Margin: 0 auto; background: #e5e5e5; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 0 !important; padding-left: 0 !important; padding-right: 0 !important; text-align: left; width: 570px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="26px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 26px; font-weight: 400; hyphens: auto; line-height: 26px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <svg width="146" height="32" viewbox="0 0 146 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0)">
                     <path d="M51.6153 20.6098H49.3491V15.3793C49.3491 14.2492 48.8373 13.6754 47.8313 13.6754C46.9645 13.6754 46.3518 14.0113 45.9967 14.7075C45.9967 14.788 46.0176 15.2218 46.0176 15.3618V20.6133H43.7513V15.2218C43.7513 14.2702 43.2187 13.6754 42.2718 13.6754C41.4642 13.6754 40.8341 13.9938 40.4199 14.627V20.6133H38.1536V11.6951H40.4199V12.6853C41.1091 11.912 42.0351 11.5342 43.2013 11.5342C44.5207 11.5342 45.4502 12.108 45.7844 12.9617C46.5154 12.01 47.5006 11.5342 48.7816 11.5342C50.6754 11.5342 51.6223 12.6258 51.6223 14.7845V20.6098H51.6153Z" fill="black" fill-opacity="0.87"/>
                     <path d="M61.5297 19.7215C60.6629 20.4562 59.5384 20.8306 58.139 20.8306C56.7013 20.8306 55.556 20.3933 54.6683 19.5431C53.8015 18.6894 53.3663 17.5628 53.3663 16.1528C53.3663 14.8233 53.8015 13.7142 54.6474 12.822C55.4968 11.9299 56.6386 11.475 58.0589 11.475C59.2217 11.475 60.2277 11.8704 61.0353 12.6436C61.843 13.4168 62.2572 14.407 62.2572 15.6175C62.2572 16.1143 62.2189 16.5307 62.118 16.8456H55.7092C55.8867 18.1716 56.9519 18.9273 58.3722 18.9273C59.3783 18.9273 60.2068 18.6509 60.8752 18.1156L61.5297 19.7215ZM55.6361 15.3201H59.9945C60.0154 14.211 59.2251 13.3783 57.965 13.3783C56.6804 13.3783 55.8937 14.0326 55.6361 15.3201Z" fill="black" fill-opacity="0.87"/>
@@ -32,20 +71,21 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M30.9372 28.49C30.9372 29.921 29.771 31.0931 28.3472 31.0931H2.58651C1.16619 31.0931 0 29.9245 0 28.49V2.59954C0 1.17207 1.16619 0 2.58999 0H28.3507C29.7745 0 30.9406 1.17207 30.9406 2.60304V28.49H30.9372ZM17.559 20.5196H15.2928V15.289C15.2928 14.1589 14.7811 13.5851 13.775 13.5851C12.9082 13.5851 12.2955 13.921 11.9404 14.6173C11.9404 14.652 11.9443 14.7524 11.9487 14.8666V14.8666V14.8667C11.9546 15.0173 11.9613 15.1919 11.9613 15.2715V20.5231H9.69507V15.1316C9.69507 14.1799 9.16246 13.5851 8.21558 13.5851C7.40795 13.5851 6.77785 13.9035 6.36359 14.5368V20.5231H4.09735V11.6049H6.36359V12.595C7.05287 11.8218 7.97886 11.4439 9.14505 11.4439C10.4644 11.4439 11.3939 12.0177 11.7281 12.8714C12.4591 11.9198 13.4443 11.4439 14.7254 11.4439C16.6191 11.4439 17.566 12.5355 17.566 14.6942V20.5196H17.559ZM24.121 20.7403C25.6005 20.7403 26.9199 20.205 27.651 19.1939L26.5822 17.525C25.9313 18.2598 25.1619 18.6166 24.2951 18.6166C23.6058 18.6166 22.9931 18.3787 22.4814 17.9239C21.9906 17.4481 21.733 16.8358 21.733 16.0626C21.733 15.3103 21.9697 14.6946 22.464 14.2397C22.9549 13.7639 23.5467 13.526 24.1976 13.526C25.0853 13.526 25.8129 13.8234 26.4047 14.3972L27.4699 12.5953C26.6623 11.7801 25.4787 11.3848 23.9017 11.3848C22.5789 11.3848 21.4754 11.8396 20.6085 12.7318C19.7417 13.624 19.3066 14.7366 19.3066 16.0626C19.3066 17.4725 19.7417 18.5991 20.6294 19.4528C21.5171 20.303 22.6833 20.7403 24.121 20.7403Z" fill="#ED1C24"/>
                   </g>
                   <defs>
-                    <clipPath id="clip0">
+                    <clippath id="clip0">
                       <rect width="145.816" height="31.0931" fill="white"/>
-                    </clipPath>
+                    </clippath>
                   </defs>
                 </svg>
-                <spacer size="26"></spacer>
-              </columns>
-            </row>
-          </container>
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="26px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 26px; font-weight: 400; hyphens: auto; line-height: 26px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              </th>
+<th class="expander" style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+            </tr></tbody></table>
+          </td></tr></tbody></table>
 
-          <container class="main-pattern">
-            <row>
-              <svg width="600" height="21" viewBox="0 0 600 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="21">
+          <table align="center" class="container main-pattern" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; height: 21px !important; margin: 0 auto; max-height: 21px; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+              <svg width="600" height="21" viewbox="0 0 600 21" fill="none" xmlns="http://www.w3.org/2000/svg" style="height: 21px;">
+                <mask id="mask0" mask-type="alpha" maskunits="userSpaceOnUse" x="0" y="0" width="600" height="21">
                   <path d="M0 0H600V21H0V0Z" fill="#FFA800"/>
                 </mask>
                 <g mask="url(#mask0)">
@@ -58,87 +98,88 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M309.994 -15.6318C307.631 -17.8067 303.98 -17.8067 301.618 -15.6318C300.165 -14.2945 298.154 -13.7334 296.22 -14.1303C293.158 -14.7585 290.113 -12.9871 289.145 -10.0151L289.014 -9.61258C288.394 -7.70777 286.934 -6.1931 285.053 -5.50378C282.07 -4.41062 280.307 -1.32896 280.877 1.79639L280.949 2.19293C281.315 4.20238 280.781 6.27131 279.489 7.85254C277.39 10.4185 277.39 14.1073 279.489 16.6733C280.781 18.2545 281.315 20.3234 280.949 22.3329L280.877 22.7294C280.307 25.8548 282.07 28.9364 285.053 30.0296C286.934 30.7189 288.394 32.2336 289.014 34.1384L289.145 34.541C290.113 37.513 293.158 39.2843 296.22 38.6561C298.154 38.2592 300.165 38.8203 301.618 40.1576C303.98 42.3325 307.631 42.3325 309.994 40.1576C311.446 38.8203 313.458 38.2592 315.392 38.6561C318.454 39.2843 321.499 37.513 322.466 34.541L322.597 34.1384C323.217 32.2336 324.678 30.7189 326.559 30.0296C329.541 28.9364 331.304 25.8548 330.735 22.7294L330.662 22.3329C330.296 20.3234 330.83 18.2545 332.123 16.6733C334.221 14.1073 334.221 10.4185 332.123 7.85254C330.83 6.27131 330.296 4.20238 330.662 2.19293L330.735 1.79639C331.304 -1.32896 329.541 -4.41062 326.559 -5.50378C324.678 -6.1931 323.217 -7.70777 322.597 -9.61258L322.466 -10.0151C321.499 -12.9871 318.454 -14.7585 315.392 -14.1303C313.458 -13.7334 311.446 -14.2945 309.994 -15.6318ZM308.484 -8.55469C306.721 -10.1778 303.997 -10.1778 302.233 -8.55469C301.149 -7.55671 299.648 -7.13797 298.205 -7.43414C295.92 -7.90296 293.648 -6.58104 292.926 -4.36313L292.828 -4.06271C292.365 -2.64121 291.275 -1.51084 289.872 -0.996429C287.646 -0.180634 286.33 2.1191 286.755 4.45145L286.809 4.74738C287.082 6.24696 286.684 7.79093 285.719 8.97095C284.153 10.8858 284.153 13.6387 285.719 15.5536C286.684 16.7336 287.082 18.2776 286.809 19.7772L286.755 20.0731C286.33 22.4055 287.646 24.7052 289.872 25.521C291.275 26.0354 292.365 27.1657 292.828 28.5872L292.926 28.8876C293.648 31.1055 295.92 32.4275 298.205 31.9587C299.648 31.6625 301.149 32.0812 302.233 33.0792C303.997 34.7023 306.721 34.7023 308.484 33.0792C309.568 32.0812 311.069 31.6625 312.513 31.9587C314.797 32.4275 317.07 31.1055 317.792 28.8876L317.89 28.5872C318.353 27.1657 319.442 26.0354 320.846 25.521C323.072 24.7052 324.387 22.4055 323.962 20.0731L323.908 19.7772C323.635 18.2776 324.034 16.7336 324.999 15.5536C326.564 13.6387 326.564 10.8858 324.999 8.97095C324.034 7.79093 323.635 6.24696 323.908 4.74738L323.962 4.45145C324.387 2.1191 323.072 -0.180634 320.846 -0.996429C319.442 -1.51084 318.353 -2.64121 317.89 -4.06271L317.792 -4.36313C317.07 -6.58104 314.797 -7.90296 312.513 -7.43414C311.069 -7.13797 309.568 -7.55671 308.484 -8.55469Z" fill="#FFAF37"/>
                 </g>
               </svg>
-            </row>
-          </container>
+            </tr></tbody></table>
+          </td></tr></tbody></table>
 
-          <container>
-            <row>
-              <columns class="main">
-                <spacer size="40"></spacer>
-                <h2 class="title">Подтверждение регистрации на my.megacampus.ru</h2>
-                <spacer size="12"></spacer>
-                <p class="p">Здравствуйте, вы успешно зарегистрировались на обучающей платформе Megacampus.</p>
-              </columns>
-            </row>
-          </container>
+          <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+              <th class="main small-12 large-12 columns first last" style="Margin: 0 auto; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 30px; padding-right: 30px; text-align: left; width: 570px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="40px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 40px; font-weight: 400; hyphens: auto; line-height: 40px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <h2 class="title" style="Margin: 0; Margin-bottom: 0; color: #282828; font-family: Arial,sans-serif; font-size: 32px; font-weight: 600; line-height: 1.3; margin: 0; margin-bottom: 0; padding: 0; text-align: left; word-wrap: normal;">Подтверждение регистрации на my.megacampus.ru</h2>
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="12px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 12px; font-weight: 400; hyphens: auto; line-height: 12px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+                <p class="p" style="Margin: 0; Margin-bottom: 0; color: #282828; font-family: Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 28px; margin: 0; margin-bottom: 0; padding: 0; text-align: left; width: 374px;">Здравствуйте, вы успешно зарегистрировались на обучающей платформе Megacampus.</p>
+              </th>
+<th class="expander" style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
+            </tr></tbody></table>
+          </td></tr></tbody></table>
 
-          <container>
-            <row>
-              <columns>
-                <row>
-                  <span class="text-info">Логин:</span>
-                  <span class="text-bold">synergy@synergy.ru</span>
-                </row>
+          <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+              <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 30px; padding-right: 30px; text-align: left; width: 570px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+                <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <span class="text-info" style="color: #8a8a8a; display: block; margin-bottom: 4px;">Логин:</span>
+                  <span class="text-bold" style="color: #434343; font-size: 22px; font-weight: 600;">synergy@synergy.ru</span>
+                </tr></tbody></table>
 
-                <spacer size="20"></spacer>
+                <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
 
-                <row>
-                  <span class="text-info">Пароль:</span>
-                  <span class="text-bold">gDB7k53</span>
-                </row>
-              </columns>
-            </row>
-          </container>
+                <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                  <span class="text-info" style="color: #8a8a8a; display: block; margin-bottom: 4px;">Пароль:</span>
+                  <span class="text-bold" style="color: #434343; font-size: 22px; font-weight: 600;">gDB7k53</span>
+                </tr></tbody></table>
+              </th></tr></table></th>
+            </tr></tbody></table>
+          </td></tr></tbody></table>
 
-          <container>
-            <columns>
-              <row>
-                <hr />
-              </row>
-            </columns>
-          </container>
+          <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 30px; padding-right: 30px; text-align: left; width: 570px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+              <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                <hr style="Margin: 20px auto; border-bottom: 1px solid #eee; border-left: 0; border-right: 0; border-top: 0; clear: both; height: 0; margin: 20px auto; max-width: 600px;">
+              </tr></tbody></table>
+            </th></tr></table></th>
+          </td></tr></tbody></table>
 
-          <container>
-            <columns>
-              <row>
-                <p class="p p--light">Для входа используйте логин и пароль из этого письма. Войти в личный кабинет студента можно по ссылке: <a href="#" class="link">https://my.megacampus.ru</a> или нажмите на кнопку</p>
-              </row>
-              <spacer size="20"></spacer>
-              <row>
-                <a class="btn-success">Личный кабинет</a>
-              </row>
-            </columns>
-          </container>
+          <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 30px; padding-right: 30px; text-align: left; width: 570px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+              <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                <p class="p p--light" style="Margin: 0; Margin-bottom: 0; color: #61697d; font-family: Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 28px; margin: 0; margin-bottom: 0; padding: 0; text-align: left; width: 460px;">Для входа используйте логин и пароль из этого письма. Войти в личный кабинет студента можно по ссылке: <a href="#" class="link" style="Margin: 0; color: #00bd57; font-family: Arial,sans-serif; font-weight: 400; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: underline;">https://my.megacampus.ru</a> или нажмите на кнопку</p>
+              </tr></tbody></table>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+              <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                <a class="btn-success" style="Margin: 0; background: #00bd57; border-radius: 4px; color: #fff; cursor: pointer; display: inline-block; font-family: Arial,sans-serif; font-size: 16px; font-weight: 600; line-height: 1.3; margin: 0; padding: 15px 26px; text-align: left; text-decoration: none;">Личный кабинет</a>
+              </tr></tbody></table>
+            </th></tr></table></th>
+          </td></tr></tbody></table>
 
-          <container>
-            <columns>
-              <row>
-                <hr />
-              </row>
-            </columns>
-          </container>
+          <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 30px; padding-right: 30px; text-align: left; width: 570px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+              <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                <hr style="Margin: 20px auto; border-bottom: 1px solid #eee; border-left: 0; border-right: 0; border-top: 0; clear: both; height: 0; margin: 20px auto; max-width: 600px;">
+              </tr></tbody></table>
+            </th></tr></table></th>
+          </td></tr></tbody></table>
 
-          <container>
-            <columns>
-              <row>
-                <p class="p p--light">Имя, пароль и другие учетные данные вы можете поменять в разделе «Профиль». <span class="p--bold">Настоятельно рекомендуем сменить пароль после первого входа в систему.</span>
+          <table align="center" class="container" style="Margin: 0 auto; background: #fff; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 30px; padding-right: 30px; text-align: left; width: 570px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+              <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                <p class="p p--light" style="Margin: 0; Margin-bottom: 0; color: #61697d; font-family: Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 28px; margin: 0; margin-bottom: 0; padding: 0; text-align: left; width: 460px;">Имя, пароль и другие учетные данные вы можете поменять в разделе «Профиль». <span class="p--bold" style="font-weight: 600;">Настоятельно рекомендуем сменить пароль после первого входа в систему.</span>
                 </p>
-              </row>
-              <spacer size="50"></spacer>
-            </columns>
-          </container>
+              </tr></tbody></table>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="50px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 50px; font-weight: 400; hyphens: auto; line-height: 50px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            </th></tr></table></th>
+          </td></tr></tbody></table>
 
-          <spacer size="20"></spacer>
+          <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="20px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 20px; font-weight: 400; hyphens: auto; line-height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
 
-          <container class="no-bg">
-            <columns>
-              <row>
-                <p class="p p--max">По всем возникающим вопросам пишите на hello@megacampus.com или звоните по телефону +7 495 800-10-01</p>
-              </row>
-              <spacer size="50"></spacer>
-            </columns>
-          </container>
-          </center>
+          <table align="center" class="container no-bg" style="Margin: 0 auto; background: 0 0 !important; border-collapse: collapse; border-spacing: 0; margin: 0 auto; padding: 0; text-align: inherit; vertical-align: top; width: 600px;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">
+            <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 30px; padding-right: 30px; text-align: left; width: 570px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #282828; font-family: Arial,sans-serif; font-size: 14px; font-weight: 400; line-height: 19px; margin: 0; padding: 0; text-align: left;">
+              <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
+                <p class="p p--max" style="Margin: 0; Margin-bottom: 0; color: #61697d; font-family: Arial,sans-serif; font-size: 16px; font-weight: 400; line-height: 28px; margin: 0; margin-bottom: 0; padding: 0; text-align: left; width: 100%;">По всем возникающим вопросам пишите на hello@megacampus.com или звоните по телефону +7 495 800-10-01</p>
+              </tr></tbody></table>
+              <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="50px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #282828; font-family: Arial,sans-serif; font-size: 50px; font-weight: 400; hyphens: auto; line-height: 50px; margin: 0; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
+            </th></tr></table></th>
+          </td></tr></tbody></table>
+          
         </td>
       </tr>
     </table>
